@@ -1,0 +1,55 @@
+/* General Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+/* Container for sections */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+section {
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.skill-tags span {
+    background: #e7f3ff;
+    color: #007bff;
+    padding: 5px 12px;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}
