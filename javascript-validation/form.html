@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Registration | Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <h2>Create Account</h2>
+            <p>Fill in your details to register</p>
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" id="name" placeholder="Sahil Bobhate">
+                <span id="nameError" class="error"></span>
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="text" id="email" placeholder="name@example.com">
+                <span id="emailError" class="error"></span>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Min. 6 characters">
+                <span id="passwordError" class="error"></span>
+            </div>
+
+            <div class="input-group">
+                <label>Mobile Number</label>
+                <input type="text" id="mobile" placeholder="10-digit number">
+                <span id="mobileError" class="error"></span>
+            </div>
+            <button type="submit">Register Now</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
